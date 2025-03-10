@@ -1,0 +1,57 @@
+@import "./variables.css";
+
+.contacto-container {
+    background-color: var(--app-box-color) !important;
+    border-radius: var(--app-border-radius) !important;
+    margin: var(--app-margin) !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    height: 15% !important;
+    flex-direction: column !important;
+}
+
+.contacto-tittle {
+    color: var(--app-secondary-title-color);
+    font-size: var(--app-font-size-tittle);
+    font-weight: bold;
+    letter-spacing: 1px;
+    flex-grow: 1;
+}
+
+.contacto-items-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: var(--app-gap-medium) !important;
+}
+
+.contacto-item {
+    text-align: center !important;
+    width: auto !important;
+}
+
+.contacto-link {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contacto-link:hover {
+    transform: scale(1.1);
+}
+
+.contacto-boton {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    background: none !important;
+    border: none !important;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.contacto-boton:hover {
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,19 @@
+.tecnologia-icono {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    width: auto;
+    text-align: center;
+}
+
+.tecnologia-icono:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .tecnologia-icono {
+        width: 50% !important;
+        height: 50% !important;
+    }
+}

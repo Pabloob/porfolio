@@ -1,0 +1,36 @@
+@import "./variables.css";
+
+.lenguajes-container {
+    padding: 2rem !important;
+    border-radius: var(--app-border-radius) !important;
+    background-color: var(--app-box-color) !important;
+    margin: var(--app-margin) !important;
+    text-align: center !important;
+}
+
+.lenguajes-title {
+    color: var(--app-secondary-title-color);
+    font-size: var(--app-font-size-tittle);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.lenguajes-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+    margin-top: 1.5rem !important;
+}
+
+.lenguajes-item-container {
+    width: clamp(120px, 20%, 200px) !important;
+    transition: transform 0.3s ease !important;
+    color: var(--app-text-color) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .lenguajes-item-container {
+        width: clamp(60px, 10%, 100px) !important;
+    }
+}

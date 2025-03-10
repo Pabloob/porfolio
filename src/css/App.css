@@ -1,0 +1,19 @@
+@import "./variables.css";
+
+.app-container {
+    background-color: var(--app-background-color) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 1rem;
+}
+
+.body {
+    max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .body {
+        max-width: 50%;
+    }
+}

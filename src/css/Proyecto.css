@@ -1,0 +1,99 @@
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.proyectos-container {
+    background-color: var(--app-box-color) !important;
+    border-radius: var(--app-border-radius) !important;
+    margin: 10% auto 0.5% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    text-align: center !important;
+    min-height: 400px !important;
+}
+
+.proyectos-icon-wrapper {
+    width: 20% !important;
+    background-color: transparent !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    border-radius: var(--app-border-radius) !important;
+}
+
+.proyectos-icon {
+    color: var(--app-icon-color) !important;
+    transition: transform 0.3s ease, color 0.3s ease !important;
+}
+
+.proyectos-icon-wrapper:hover .proyectos-icon {
+    transform: scale(1.1) !important;
+    color: var(--app-secondary-title-color) !important;
+}
+
+.proyectos-content {
+    flex-grow: 1 !important;
+    padding: 3rem !important;
+    text-align: center !important;
+    max-width: 100% !important;
+    margin: auto !important;
+}
+
+.proyectos-link {
+    color: var(--app-secondary-title-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: var(--app-font-size-tittle);
+    font-weight: bold;
+    letter-spacing: 1px;
+    flex-grow: 1;
+}
+
+.proyectos-link:hover {
+    text-decoration: underline;
+}
+
+.proyectos-descripcion {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--app-font-size-text);
+    line-height: 1.6;
+    color: var(--app-text-color);
+}
+
+.proyectos-tecnologias-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.proyectos-tecnologia {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--app-secondary-box-color);
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+}
+
+.proyectos-tecnologia-text {
+    color: var(--app-secondary-text-color);
+}
+
+@media screen and (max-width: 600px) {
+    .proyectos-container {
+        margin: 20% auto 0.5% !important;
+    }
+
+    .proyectos-icon-wrapper {
+        width: 25% !important;
+    }
+
+    .proyectos-content {
+        padding: 1rem !important;
+    }
+}

@@ -1,0 +1,55 @@
+@import "./variables.css";
+
+:root {
+    --transition-duration: 0.3s !important;
+}
+
+.topbar {
+    background-color: var(--app-box-color) !important;
+    height: auto !important;
+    display: flex !important;
+    padding: 0 1rem !important;
+}
+
+.topbar-menu-icon {
+    color: var(--app-icon-color) !important;
+    cursor: pointer !important;
+
+}
+
+.topbar-sidebar {
+    background-color: var(--app-box-color) !important;
+    color: var(--app-text-color) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.topbar-title {
+    color: var(--app-title-color) !important;
+    flex-grow: 1 !important;
+    font-size: var(--app-font-size-tittle) !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.topbar-sidebar-divider {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    height: 1px !important;
+}
+
+.topbar-sidebar-icon {
+    color: var(--app-icon-color) !important;
+}
+
+.MuiListItemButton-root:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    transition: background-color var(--transition-duration) ease !important;
+}
+
+@media screen and (max-width: 700px) and (pointer: fine) {
+    .topbar-menu-icon {
+        visibility: hidden !important;
+    }
+}

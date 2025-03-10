@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Proyecto PMDM 2DAM",
+        "descripcion": "Aplicación Android desarrollada con Kotlin y Firebase, enfocada en la planificación de rutinas de gimnasio. Permite organizar ejercicios con series, repeticiones y RIR (intensidad percibida).",
+        "tecnologias": [
+            "Kotlin",
+            "Firebase"
+        ],
+        "link": "https://github.com/Pabloob/2DAM_Proyecto_PMDM"
+    },
+    {
+        "nombre": "Organizador de tareas",
+        "descripcion": "Aplicación web full stack que gestiona tareas. CRUD casi completo. Backend con Spring Boot y base de datos MySQL. Frontend desarrollado con React.",
+        "tecnologias": [
+            "React",
+            "Spring Boot",
+            "MySQL"
+        ],
+        "link": "https://github.com/Pabloob/Organizador-de-Tareas---Proyecto-Personal"
+    },
+    {
+        "nombre": "Proyecto gestion alquiler coches",
+        "descripcion": "Proyecto de escritorio desarrollado en Java con arquitectura Controller-Service-View-DAO-DTO. Aplicación básica enfocada en prácticas de diseño por capas.",
+        "tecnologias": [
+            "Java",
+            "MVC",
+            "DAO",
+            "DTO"
+        ],
+        "link": "https://github.com/Pabloob/ProyectoADyDI"
+    },
+    {
+        "nombre": "Proyecto Videojuego GODOT",
+        "descripcion": " Videojuego de plataformas.Se enfoca en la optimización de físicas, detección de colisiones y animaciones fluidas.",
+        "tecnologias": [
+            "GDScript "
+        ],
+        "link": "https://github.com/Pabloob/GodotProyect"
+    },
+    {
+        "nombre": "Proyecto Gestion Inventario",
+        "descripcion": "Permite administrar productos, registrar ventas, generar facturas y reportes en PDF, y realizar búsquedas avanzadas.",
+        "tecnologias": [
+            "Spring Boot",
+            "Java",
+            "SQLite"
+        ],
+        "link": "https://github.com/Pabloob/GodotProyect"
+    }
+]

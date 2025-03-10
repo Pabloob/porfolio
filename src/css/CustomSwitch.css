@@ -1,0 +1,38 @@
+.custom-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #aab4be;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 2%;
+}
+
+.custom-switch.checked {
+    background-color: #455a64;
+}
+
+.switch-thumb {
+    width: 26px;
+    height: 26px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+}
+
+.custom-switch.checked .switch-thumb {
+    transform: translateX(30px);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme: dark;
+    }
+}

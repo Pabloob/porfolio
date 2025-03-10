@@ -1,0 +1,49 @@
+:root {
+    /* Colores generales */
+    --app-background-color: #121212;
+    --app-box-color: #000000;
+    --app-secondary-box-color: #1e1e1e;
+
+    /* Tipografía y texto */
+    --app-title-color: #ffffff;
+    --app-text-color: #d1d1d1;
+    --app-secondary-text-color: #a0a0a0;
+    --app-secondary-title-color: #cedc6e;
+
+    /* Iconos */
+    --app-icon-color: #ff9800;
+
+    /* Estilos de contenedores */
+    --app-border-radius: 30px;
+
+    /* Espaciado */
+    --app-gap-small: 1rem;
+    --app-gap-medium: 2rem;
+    --app-gap-large: 3rem;
+    --app-margin: 3% auto 0.5%;
+
+    /*Tamaño letra*/
+    --app-font-size-tittle: 2rem;
+    --app-font-size-text: 1.5rem;
+
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --app-font-size-tittle: 1.3rem;
+        --app-font-size-text: 0.75rem;
+    }
+}
+
+.light {
+    /* Colores generales */
+    --app-background-color: #f5f5f5;
+    --app-box-color: #ffffff;
+    --app-secondary-box-color: #e0e0e0;
+
+    /* Tipografía y texto */
+    --app-title-color: #212121;
+    --app-text-color: #4e4e4e;
+    --app-secondary-text-color: #7d7d7d;
+    --app-secondary-title-color: #607d3b;
+}

@@ -6,12 +6,12 @@ import contactos from "../datos/contactos";
 function Contacto() {
     return (
         <Box className="contacto-container">
-            <div className="contacto-tittle">
+            <div className="contacto-title">
                 Contacto
             </div>
             <Box className="contacto-items-container">
-                {contactos.map(({ name, icon, link, onClick }) => (
-                    <Box key={name} className="contacto-item">
+                {contactos.map(({id, icon, link, onClick}) => (
+                    <Box key={id} className="contacto-item">
                         {link ? (
                             <a href={link} target="_blank" rel="noopener noreferrer" className="contacto-link">
                                 {icon}

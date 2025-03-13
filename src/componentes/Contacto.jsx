@@ -10,8 +10,8 @@ function Contacto() {
                 Contacto
             </div>
             <Box className="contacto-items-container">
-                {contactos.map(({ name, icon, link, onClick }) => (
-                    <Box key={name} className="contacto-item">
+                {contactos.map(({ id, icon, link, onClick }) => (
+                    <Box key={id} className="contacto-item">
                         {link ? (
                             <a href={link} target="_blank" rel="noopener noreferrer" className="contacto-link">
                                 {icon}

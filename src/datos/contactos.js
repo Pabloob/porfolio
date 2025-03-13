@@ -16,10 +16,11 @@ const isMobile = window.innerWidth <= 600;
 const iconSize = isMobile ? 35 : 50;
 
 const contactos = [
-    {icon: <MdEmail size={iconSize} color="#E34F26"/>, link: "mailto:pabloorbeab@gmail.com"},
-    {icon: <SiGithub size={iconSize} color="#1572B6"/>, link: "https://github.com/Pabloob"},
-    {icon: <SiLinkedin size={iconSize} color="#F7DF1E"/>, link: "https://www.linkedin.com/in/pabloob5"},
-    {icon: <FaFileAlt size={iconSize} color="#007BFF"/>, onClick: handleDownload},
+    { id: "email", icon: <MdEmail size={iconSize} color="#E34F26"/>, link: "mailto:pabloorbeab@gmail.com" },
+    { id: "github", icon: <SiGithub size={iconSize} color="#1572B6"/>, link: "https://github.com/Pabloob" },
+    { id: "linkedin", icon: <SiLinkedin size={iconSize} color="#F7DF1E"/>, link: "https://www.linkedin.com/in/pabloob5" },
+    { id: "cv", icon: <FaFileAlt size={iconSize} color="#007BFF"/>, onClick: handleDownload },
 ];
 
 export default contactos;
+
